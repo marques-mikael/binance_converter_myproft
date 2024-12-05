@@ -5,7 +5,7 @@ from datetime import datetime
 
 # Carregando os Dados da Planilha Original
 # Substitua 'dados_originais.xlsx' pelo nome do seu arquivo
-df = pd.read_excel('Transações 12-10-2023 a 31-12-202.xlsx')
+df = pd.read_excel('dados_originais.xlsx')
 
 # Criando uma Nova Coluna para a Corretora
 df['Corretora'] = 'Binance'
